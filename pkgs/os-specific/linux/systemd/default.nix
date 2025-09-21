@@ -214,7 +214,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "systemd";
     repo = "systemd";
     rev = "v${finalAttrs.version}";
-    hash = "sha256-XQ+IyRar74qQij96CKClHXs0kkPnGeKUgA8ULiWh5YY=";
+    hash = "sha256-3Ig5TXhK99iOu41k4c5CgC4R3HhBftSAb9UbXvFY6lo=";
   };
 
   # On major changes, or when otherwise required, you *must* :
