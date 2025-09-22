@@ -56,7 +56,7 @@ in
     (lib.mkRemovedOptionModule [
       "services"
       "murmur"
-      "logfile"
+      "logFile"
     ] "This option has been superseded by services.murmur.logToFile")
   ];
 
@@ -355,7 +355,10 @@ in
         ProtectKernelLogs = true;
         ProtectKernelModules = true;
         ProtectKernelTunables = true;
-        ProtectSystem = "full";
+        ProtectSystem = "strict";
+        ReadWritePaths = [
+          cfg.stateDir
+        ];
         RestrictAddressFamilies = [
           "AF_INET"
           "AF_INET6"

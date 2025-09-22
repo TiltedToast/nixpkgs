@@ -1915,6 +1915,8 @@ self: super: with self; {
 
   binsync = callPackage ../development/python-modules/binsync { };
 
+  biocframe = callPackage ../development/python-modules/biocframe { };
+
   biocutils = callPackage ../development/python-modules/biocutils { };
 
   biom-format = callPackage ../development/python-modules/biom-format { };
@@ -6564,8 +6566,6 @@ self: super: with self; {
 
   hebg = callPackage ../development/python-modules/hebg { };
 
-  heif-image-plugin = callPackage ../development/python-modules/heif-image-plugin { };
-
   help2man = callPackage ../development/python-modules/help2man { };
 
   helpdev = callPackage ../development/python-modules/helpdev { };
@@ -7858,6 +7858,8 @@ self: super: with self; {
 
   knot-floer-homology = callPackage ../development/python-modules/knot-floer-homology { };
 
+  knowit = callPackage ../development/python-modules/knowit { };
+
   knx-frontend = callPackage ../development/python-modules/knx-frontend { };
 
   kokoro = callPackage ../development/python-modules/kokoro { };
@@ -8437,6 +8439,8 @@ self: super: with self; {
   linear-garage-door = callPackage ../development/python-modules/linear-garage-door { };
 
   linear-operator = callPackage ../development/python-modules/linear-operator { };
+
+  linearmodels = callPackage ../development/python-modules/linearmodels { };
 
   lineax = callPackage ../development/python-modules/lineax { };
 
@@ -13138,9 +13142,9 @@ self: super: with self; {
 
   pyhcl = callPackage ../development/python-modules/pyhcl { };
 
-  pyheck = callPackage ../development/python-modules/pyheck { };
+  pyhdfe = callPackage ../development/python-modules/pyhdfe { };
 
-  pyheif = callPackage ../development/python-modules/pyheif { };
+  pyheck = callPackage ../development/python-modules/pyheck { };
 
   pyheos = callPackage ../development/python-modules/pyheos { };
 
